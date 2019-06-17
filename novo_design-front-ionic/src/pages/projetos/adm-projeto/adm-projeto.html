@@ -1,0 +1,111 @@
+<!--
+  Generated template for the AdmProjetoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Editar Projeto</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+  <ion-col>
+       <ion-row>
+    <ion-item>
+      <ion-label floating>Projeto</ion-label>
+      <ion-input [(ngModel)]="projeto.tituloProjeto" required type="text"></ion-input>
+    </ion-item>
+  </ion-row>
+  
+  <ion-row>
+      <ion-item>
+        <ion-label floating>Descrição</ion-label>
+        <ion-input type="text" [(ngModel)]="projeto.descricaoProjeto"></ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row>
+        <ion-item>
+          <ion-label floating>Valor</ion-label>
+          <ion-input type="text" [(ngModel)]="projeto.preco"></ion-input>
+        </ion-item>
+      </ion-row>
+      
+      <ion-row>
+          <ion-item>
+            <ion-label floating>Cliente</ion-label>
+            <ion-input type="text" [(ngModel)]="projeto.nomeCliente"></ion-input>
+          </ion-item>
+        </ion-row>
+        
+        <ion-row>
+            <ion-item>
+              <ion-label floating>Email</ion-label>
+              <ion-input type="text" [(ngModel)]="projeto.email"></ion-input>
+            </ion-item>
+          </ion-row>
+
+          <ion-row>
+              <ion-item>
+                <ion-label floating>Telefone</ion-label>
+                <ion-input type="text" [(ngModel)]="projeto.telefone"></ion-input>
+              </ion-item>
+            </ion-row>
+          
+            <ion-row>
+                <ion-item>
+                  <ion-label floating>Endereço</ion-label>
+                  <ion-input type="text" [(ngModel)]="projeto.rua"></ion-input>
+                </ion-item>
+              </ion-row>
+  
+              <ion-row>
+                  <ion-item>
+                    <ion-label floating>Cidade</ion-label>
+                    <ion-input type="text" [(ngModel)]="projeto.cidade"></ion-input>
+                  </ion-item>
+                </ion-row>
+
+                <ion-row>
+                  <ion-item>
+                    <ion-label floating>Bairro</ion-label>
+                    <ion-input type="text" [(ngModel)]="projeto.bairro"></ion-input>
+                  </ion-item>
+                </ion-row>
+
+                <ion-row>
+                  <ion-item>
+                    <ion-label floating>Cep</ion-label>
+                    <ion-input type="text" [(ngModel)]="projeto.cep"></ion-input>
+                  </ion-item>
+                </ion-row>
+
+                <ion-row>
+                    <ion-item text-center>
+                        <button ion-button clear (click)="getPictureOptions()"><ion-icon name="camera" item-left></ion-icon> Selecionar Foto</button>
+                      </ion-item>
+                </ion-row>
+                
+                
+
+                <ion-item *ngIf="projeto.foto">
+                    <img [src]="projeto.foto">
+                  </ion-item>
+  
+
+  </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <button ion-button (click)="alterar()">Salvar</button>   
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>

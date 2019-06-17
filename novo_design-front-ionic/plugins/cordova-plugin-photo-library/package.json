@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-photo-library",
+        "scope": null,
+        "escapedName": "cordova-plugin-photo-library",
+        "name": "cordova-plugin-photo-library",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\lsrael\\Desktop\\NovaDesign_app\\novo_design-front-ionic"
+    ]
+  ],
+  "_from": "cordova-plugin-photo-library",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-photo-library@2.2.1",
+  "_location": "/cordova-plugin-photo-library",
+  "_nodeVersion": "8.11.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-photo-library_2.2.1_1548950457582_0.8797660775865126"
+  },
+  "_npmUser": {
+    "name": "terikon",
+    "email": "npm@terikon.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-photo-library",
+    "scope": null,
+    "escapedName": "cordova-plugin-photo-library",
+    "name": "cordova-plugin-photo-library",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-photo-library/-/cordova-plugin-photo-library-2.2.1.tgz",
+  "_shasum": "d8b06b238c4875a5d535dcea5a9e4119acff8793",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-photo-library",
+  "_where": "C:\\Users\\lsrael\\Desktop\\NovaDesign_app\\novo_design-front-ionic",
+  "author": {
+    "name": "Roman Viskin",
+    "email": "npm@terikon.com",
+    "url": "http://il.linkedin.com/in/romanviskin"
+  },
+  "bugs": {
+    "url": "https://github.com/terikon/cordova-plugin-photo-library/issues"
+  },
+  "dependencies": {
+    "async": "^2.1.4"
+  },
+  "description": "Plugin that just gets photos from the gallery",
+  "devDependencies": {
+    "@types/cordova": "^0.0.34",
+    "@types/jasmine": "^2.5.41",
+    "blueimp-canvastoblob": "2.1.0",
+    "cordova-paramedic": "git+https://github.com/apache/cordova-paramedic.git",
+    "es5-shim": "4.5.9",
+    "es6-shim": "0.35.3",
+    "es7-shim": "6.0.0",
+    "eslint": "^3.14.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-oz+iWBlW6tBtpmACGshCm0Z/deMbbFwcC67avnx8eFpX4o4nfA4jiHIImW1GO9NBMVkoTKH71OixDKIqq/0uXA==",
+    "shasum": "d8b06b238c4875a5d535dcea5a9e4119acff8793",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-photo-library/-/cordova-plugin-photo-library-2.2.1.tgz",
+    "fileCount": 51,
+    "unpackedSize": 2633210,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUxu6CRA9TVsSAnZWagAARbMP/31wxCCf3uCebGPcn7jM\n018KkiLBgkOUvlDbALSkK5AmISmwF65x34OzaBdPLBGzjiV3bD0p9UDE+ve0\n/YbCnPdfp+3Gc0IiOrJvSPt380WCnKkB5er5bbfVcyT+/hMz5/zu2uwKWwRj\nt5DDNlFYLoow7ZFOr08KvD7cccKg6OsC5S7BykS2x3B/gBZwyDoHy1/boV6H\nAHn1AGzxOjcZiF2BLYXKbU709Tj1n8yGAV+T1E+EjZl6wuLUn847A3463Gej\npw4vnm9+6o5N8u+x91QnMMuuN1yAI6BCAtWwjAUM3NwYcxfLCwcgCch/+BqO\nLufenKCdjAD5JaUUoOE9rHqJwrWURAUjqTjTp+k4FXjKxOHw/VIKvwBJBVlY\nubCB5YxY7LS95PbKPIEfQaXJEflZjNgKSjto9wdinrJ2JOCnwlUdPRgOmgnr\nNBhPoWEZnOG+xIHUPXA12dfpjcIxbs3iH4FHHOg7EzaFIoAxbkQ8aAixcGD2\nhe7/AGaux7zPOd276CiWXE6LjlAUpZ9dm/010/Bmz55p9DtEk1bmomtlHKtY\nwKxaqfC0HBPgwmXVjG/lC2I3T/PhQ3+vwOxLpGR3pma2yUToIPdtCqctzrDo\nhrBdyfJ9P/jZfvx3ZFkpBEylWoiov89YAZXZKjX+7XWxKIyOsIj8WV5QFiLc\nlGEW\r\n=R7gC\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "1297c4c215a4767ce46fa6f3249565d4236dd7c2",
+  "homepage": "https://github.com/terikon/cordova-plugin-photo-library#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "terikon",
+      "email": "npm@terikon.com"
+    }
+  ],
+  "name": "cordova-plugin-photo-library",
+  "optionalDependencies": {},
+  "readme": "[![Build Status](https://travis-ci.org/terikon/cordova-plugin-photo-library.svg?branch=master)](https://travis-ci.org/terikon/cordova-plugin-photo-library)\n\nThat's how it looks and performs in real app:\n\n[![](https://img.youtube.com/vi/qHnnRsZ7klE/0.jpg)](https://www.youtube.com/watch?v=qHnnRsZ7klE)\n\nDemo projects (runnable online):\n\n- [For jQuery](https://github.com/terikon/photo-library-demo-jquery)\n- [For Ionic 2](https://github.com/terikon/photo-library-demo-ionic2)\n- [Vanilla JS with PhotoSwipe](https://github.com/terikon/photo-library-demo-photoswipe)\n\nDisplays photo library on cordova's HTML page, by URL. Gets thumbnail of arbitrary sizes, works on multiple platforms, and is fast.\n\n- Displays photo gallery as web page, and not as boring native screen which you cannot modify. This brings back control over your app to you.\nFor example, you can use [PhotoSwipe](https://github.com/dimsemenov/photoswipe) library to present photos.\n- Provides custom schema to access thumbnails: cdvphotolibrary://thumbnail?fileid=xxx&width=128&height=128&quality=0.5 .\n- Works on Android, iOS and browser (cordova serve).\n- Fast - uses browser cache.\n- Can save photos (jpg, png, animated gifs) and videos to specified album on device.\n- Handles permissions.\n- Handles images [EXIF rotation hell](http://www.daveperrett.com/articles/2012/07/28/exif-orientation-handling-is-a-ghetto/).\n- On iOS, written in Swift and not Objective-C.\n\n**Co-maintainer needed**\n\nCurrently Android code is pretty stable, iOS has few stability [issues](https://github.com/terikon/cordova-plugin-photo-library/issues).\n**Co-maintainer with iOS/Swift knowlege is needed, please [contact](https://github.com/viskin)**.\n\nContributions are welcome.\nPlease add only features that can be supported on both Android and iOS.\nPlease write tests for your contribution.\n\n# Install\n\n    cordova plugin add cordova-plugin-photo-library --variable PHOTO_LIBRARY_USAGE_DESCRIPTION=\"To choose photos\" --save\n\n# Usage\n\nAdd cdvphotolibrary protocol to Content-Security-Policy, like this:\n\n```\n<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self' 'unsafe-inline' 'unsafe-eval' data: gap: ws: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: cdvphotolibrary:\">\n```\n\nFor remarks about angular/ionic usage, see below.\n\n## Displaying photos\n\n```js\ncordova.plugins.photoLibrary.getLibrary(\n  function (result) {\n    var library = result.library;\n    // Here we have the library as array\n\n    library.forEach(function(libraryItem) {\n      console.log(libraryItem.id);          // ID of the photo\n      console.log(libraryItem.photoURL);    // Cross-platform access to photo\n      console.log(libraryItem.thumbnailURL);// Cross-platform access to thumbnail\n      console.log(libraryItem.fileName);\n      console.log(libraryItem.width);\n      console.log(libraryItem.height);\n      console.log(libraryItem.creationDate);\n      console.log(libraryItem.latitude);\n      console.log(libraryItem.longitude);\n      console.log(libraryItem.albumIds);    // array of ids of appropriate AlbumItem, only of includeAlbumsData was used\n    });\n\n  },\n  function (err) {\n    console.log('Error occured');\n  },\n  { // optional options\n    thumbnailWidth: 512,\n    thumbnailHeight: 384,\n    quality: 0.8,\n    includeAlbumData: false // default\n  }\n);\n```\n\nThis method is fast, as thumbails will be generated on demand.\n\n## Getting albums\n\n```js\ncordova.plugins.photoLibrary.getAlbums(\n  function (albums) {\n    albums.forEach(function(album) {\n      console.log(album.id);\n      console.log(album.title);\n    });\n  }, \n  function (err) { }\n);\n```\n\n## Saving photos and videos\n\n``` js\nvar url = 'file:///...'; // file or remote URL. url can also be dataURL, but giving it a file path is much faster\nvar album = 'MyAppName';\ncordova.plugins.photoLibrary.saveImage(url, album, function (libraryItem) {}, function (err) {});\n```\n\n```js\n// iOS quirks: video provided cannot be .webm . Use .mov or .mp4 .\ncordova.plugins.photoLibrary.saveVideo(url, album, function () {}, function (err) {});\n```\n\nsaveImage and saveVideo both need write permission to be granted by requestAuthorization.\n\n## Permissions\n\nThe library handles tricky parts of aquiring permissions to photo library.\n\nIf any of methods fail because lack of permissions, error string will be returned that begins with 'Permission'. So, to process on aquiring permissions, do the following:\n```js\ncordova.plugins.photoLibrary.getLibrary(\n  function ({library}) { },\n  function (err) {\n    if (err.startsWith('Permission')) {\n      // call requestAuthorization, and retry\n    }\n    // Handle error - it's not permission-related\n  }\n);\n```\n\nrequestAuthorization is cross-platform method, that works in following way:\n\n- On android, will ask user to allow access to storage\n- On ios, on first call will open permission prompt. If user denies it subsequent calls will open setting page of your app, where user should enable access to Photos.\n\n```js\ncordova.plugins.photoLibrary.requestAuthorization(\n  function () {\n    // User gave us permission to his library, retry reading it!\n  },\n  function (err) {\n    // User denied the access\n  }, // if options not provided, defaults to {read: true}.\n  {\n    read: true,\n    write: true\n  }\n);\n```\n\nRead permission is added for your app by the plugin automatically. To make writing possible, add following to your config.xml:\n```xml\n<platform name=\"android\">\n  <config-file target=\"AndroidManifest.xml\" parent=\"/*\">\n    <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n  </config-file>\n</platform>\n```\n\n## Chunked output\n\n```js\ncordova.plugins.photoLibrary.getLibrary(\n  function (result) {\n    var library = result.library;\n    var isLastChunk = result.isLastChunk;\n  },\n  function (err) { },\n  {\n    itemsInChunk: 100, // Loading large library takes time, so output can be chunked so that result callback will be called on\n    chunkTimeSec: 0.5, // each X items, or after Y secons passes. You can start displaying photos immediately.\n    useOriginalFileNames: false, // default, true will be much slower on iOS\n    maxItems: 200, // limit the number of items to return\n  }\n);\n```\n\n## In addition you can ask thumbnail or full image for each photo separately, as cross-platform url or as blob\n\n```js\n// Use this method to get url. It's better to use it and not directly access cdvphotolibrary://, as it will also work on browser.\ncordova.plugins.photoLibrary.getThumbnailURL(\n  libraryItem, // or libraryItem.id\n  function (thumbnailURL) {\n\n    image.src = thumbnailURL;\n\n  },\n  function (err) {\n    console.log('Error occured');\n  },\n  { // optional options\n    thumbnailWidth: 512,\n    thumbnailHeight: 384,\n    quality: 0.8\n  });\n```\n\n```js\ncordova.plugins.photoLibrary.getPhotoURL(\n  libraryItem, // or libraryItem.id\n  function (photoURL) {\n\n    image.src = photoURL;\n\n  },\n  function (err) {\n    console.log('Error occured');\n  });\n```\n\n```js\n// This method is slower as it does base64\ncordova.plugins.photoLibrary.getThumbnail(\n  libraryItem, // or libraryItem.id\n  function (thumbnailBlob) {\n\n  },\n  function (err) {\n    console.log('Error occured');\n  },\n  { // optional options\n    thumbnailWidth: 512,\n    thumbnailHeight: 384,\n    quality: 0.8\n  });\n```\n\n```js\n// This method is slower as it does base64\ncordova.plugins.photoLibrary.getPhoto(\n  libraryItem, // or libraryItem.id\n  function (fullPhotoBlob) {\n\n  },\n  function (err) {\n    console.log('Error occured');\n  });\n```\n\n# ionic / angular\n\nIt's best to use from [ionic-native](https://ionicframework.com/docs/v2/native/photo-library). The the docs.\n\nAs mentioned [here](https://github.com/terikon/cordova-plugin-photo-library/issues/15) by dnmd, cdvphotolibrary urls should bypass sanitization to work.\n\nIn angular2, do following:\n\nDefine Pipe that will tell to bypass trusted urls. cdvphotolibrary urls should be trusted:\n\n```js\n// cdvphotolibrary.pipe.ts\nimport { Pipe, PipeTransform } from '@angular/core';\nimport { DomSanitizer } from '@angular/platform-browser';\n\n@Pipe({name: 'cdvphotolibrary'})\nexport class CDVPhotoLibraryPipe implements PipeTransform {\n\n  constructor(private sanitizer: DomSanitizer) {}\n\n  transform(url: string) {\n    return url.startsWith('cdvphotolibrary://') ? this.sanitizer.bypassSecurityTrustUrl(url) : url;\n  }\n}\n```\n\nRegister the pipe in your module:\n\n```js\nimport { CDVPhotoLibraryPipe } from './cdvphotolibrary.pipe.ts';\n\n@NgModule({\n  declarations: [\n    CDVPhotoLibraryPipe,\n    // ...\n  ],\n})\n```\n\nThen in your component, use cdvphotolibrary urls applying the cdvphotolibrary pipe:\n\n```js\n@Component({\n   selector: 'app',\n   template: '<img [src]=\"url | cdvphotolibrary\">'\n})\n\nexport class AppComponent {\n    public url: string = 'placeholder.jpg';\n    constructor() {\n      // fetch thumbnail URL's\n      this.url = libraryItem.thumbnailURL;\n    }\n}\n```\n\nIf you use angular1, you need to add cdvphotolibrary to whitelist:\n\n```js\nvar app = angular\n  .module('myApp', [])\n  .config([\n    '$compileProvider',\n    function ($compileProvider) {\n\t\t$compileProvider.imgSrcSanitizationWhitelist(/^\\s*(https?|cdvphotolibrary):/);\n\t\t//Angular 1.2 and above has two sanitization methods, one for links (aHrefSanitizationWhitelist) and \n\t\t//one for images (imgSrcSanitizationWhitelist). Versions prior to 1.2 use $compileProvider.urlSanitizationWhitelist(...)\n    }\n  ]);\n```\n\n# TypeScript\n\nTypeScript definitions are provided in [PhotoLibrary.d.ts](https://github.com/terikon/cordova-plugin-photo-library/blob/master/PhotoLibrary.d.ts)\n\n# Tests\n\nThe library includes tests in [tests](https://github.com/terikon/cordova-plugin-photo-library/tree/master/tests) folder. All tests are in\n[tests.js](https://github.com/terikon/cordova-plugin-photo-library/blob/master/tests/tests.js) file.\n\n# Running tests\n\n## Travis\n\ntcc.db file is located at $HOME/Library/Developer/CoreSimulator/Devices/$DEVICEID/data/Library/TCC/TCC.db\n\n## Helper app\n\nTo run tests, use [special photo-library-tester](https://github.com/terikon/photo-library-tester).\nIt's always useful to run these tests before submitting changes, for each platform (android, ios, browser).\n\n# TODO\n\n- [#38](https://github.com/terikon/cordova-plugin-photo-library/issues/38) browser platform: saveImage and saveVideo should download file.\n- Improve documentation.\n- Provide cancellation mechanism for long-running operations, like getLibrary.\n- CI.\n\n# Optional enchancements\n\n- iOS: it seems regex causes slowdown with dataURL, and (possibly) uses too much memory - check how to do regex on iOS in better way.\n- Browser platform: Separate to multiple files.\n- Android: caching mechanism like [this one](https://developer.android.com/training/displaying-bitmaps/cache-bitmap.html) can be helpful.\n- Implement save protocol with HTTP POST, so no base64 transformation will be needed for saving.\n- EXIF rotation hell is not handled on browser platform.\n- Pre-fetching data to file-based cache on app start can improve responsiveness. Just this caching should occur as low-priority thread. Cache can be updated\nby system photo libraries events.\n\n# References\n\nParts are based on\n\n- https://github.com/subitolabs/cordova-gallery-api\n- https://github.com/SuryaL/cordova-gallery-api\n- https://github.com/ryouaki/Cordova-Plugin-Photos\n- https://github.com/devgeeks/Canvas2ImagePlugin\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terikon/cordova-plugin-photo-library.git"
+  },
+  "scripts": {
+    "copy-test-images:android:emulator": "adb -e push tests/test-images /mnt/sdcard/DCIM && adb -e shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///sdcard",
+    "copy-test-images:ios:simulator": "xcrun simctl addmedia booted tests/test-images/*",
+    "test": "echo \"Run tests with https://github.com/terikon/cordova-plugin-photo-library-tester, or run test:android or test:ios.\" && exit 1",
+    "test:android": "cordova-paramedic --platform android --plugin . --verbose",
+    "test:ios": "cordova-paramedic --platform ios --plugin . --verbose"
+  },
+  "version": "2.2.1"
+}

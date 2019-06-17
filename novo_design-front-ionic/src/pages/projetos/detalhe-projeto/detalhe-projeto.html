@@ -1,0 +1,40 @@
+<!--
+  Generated template for the DetalheProjetoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Detalhes do projeto</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button block (click)="addOrEdit(cliente)">Editar</button>
+
+  <ion-card>
+    <ion-card-content >
+   <p> Projeto: {{projeto.tituloProjeto}}</p> <br/>
+   <p> Descrição: {{projeto.descricaoProjeto}}</p> <br/>
+   <p> Valor: {{projeto.preco}}</p> <br/>
+   <p> Cliente: {{projeto.nomeCliente}}</p> <br/>
+   <p> Email: {{projeto.email}}</p> <br/>
+   <p> Telefone: {{projeto.telefone}}</p> <br/>
+   <p> Endereço: {{projeto.rua}}</p> <br/>
+   <p> Cidade: {{projeto.cidade}}</p> <br/>
+   <p> Bairro: {{projeto.bairro}}</p> <br/>
+   <p> Cep: {{projeto.cep}}</p> <br/>
+   <p>   <ion-item *ngIf="projeto.foto">
+      <img [src]="projeto.foto">
+    </ion-item></p> <br/>
+
+
+
+   <ion-row>
+    <button ion-button block (click)="addOrEdit(cliente)">Editar</button>
+
+   </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
